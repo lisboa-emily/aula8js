@@ -4,7 +4,7 @@ function logar() {
     var senha =document.getElementById('inputSenha').value;
 
     if(usuario == "emily" && senha == "1234") {
-        window.location = "page.html"
+        window.location.href = "page.html"
     } else { 
         alert("Usuario/Senha incorretos! Tente novamente")
     }
